@@ -35,7 +35,6 @@ int main()
         }
         printf("\n");
     }
-    printf("\n -- Maximum need --\n");
     printf("\n -- Enter available resources Total resources - allocated resorces :");
     for ( i = 0; i < m; i++)
     {
@@ -82,7 +81,7 @@ int main()
 	}
 	int flag = 1;
 	
-	for(int i=0;i<n;i++)
+	for( i=0;i<n;i++)
 	{
 	if(f[i]==0)
 	{
